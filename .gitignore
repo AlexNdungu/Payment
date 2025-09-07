@@ -1,1 +1,7 @@
 db.sqlite3
+
+mpesa/migrations/0*
+mpesa/__pycache__/*
+mpesa/migrations/__pycache__/*
+
+Payment/__pycache__/*
