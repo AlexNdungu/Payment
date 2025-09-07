@@ -4,8 +4,8 @@ from datetime import datetime
 from requests.auth import HTTPBasicAuth
 
 def get_access_token():
-    consumer_key = "np8KztuMTx1jy2olikxMUacRDicVllA1v3F06twwGDHYSAhB"
-    consumer_secret = "z7p0NEZzUgczmuR7yvcwsxGNCgOCSW1PkqH7cIhDWrEOt0XCzjq69cPhRdEjGKjk"
+    consumer_key = ""
+    consumer_secret = ""
     api_url = "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials"
 
     response = requests.get(api_url, auth=HTTPBasicAuth(consumer_key, consumer_secret))
